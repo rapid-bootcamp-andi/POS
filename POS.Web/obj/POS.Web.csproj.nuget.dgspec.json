@@ -4,14 +4,14 @@
     "E:\\Rapid\\Codes\\POS\\POS.Web\\POS.Web.csproj": {}
   },
   "projects": {
-    "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\POS.Repository.csproj": {
+    "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\POS.Repository.csproj",
+        "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj",
         "projectName": "POS.Repository",
-        "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\POS.Repository.csproj",
+        "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj",
         "packagesPath": "C:\\Users\\SyrMtng\\.nuget\\packages\\",
-        "outputPath": "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\obj\\",
+        "outputPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SyrMtng\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -82,7 +98,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj": {
+                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -94,6 +114,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -138,8 +174,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\POS.Repository.csproj": {
-                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\POS.Repository.csproj"
+              "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj": {
+                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj"
               },
               "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj": {
                 "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj"

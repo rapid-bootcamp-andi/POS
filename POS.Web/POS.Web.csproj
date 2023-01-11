@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\POS.Repositoryy\POS.Repository.csproj" />
+    <ProjectReference Include="..\POS.Repository\POS.Repository.csproj" />
     <ProjectReference Include="..\POS.Service\POS.Service.csproj" />
   </ItemGroup>
 

@@ -1,12 +1,17 @@
 E:\Rapid\Codes\POS\POS.Service\bin\Debug\net7.0\POS.Service.deps.json
+E:\Rapid\Codes\POS\POS.Service\bin\Debug\net7.0\POS.Service.runtimeconfig.json
 E:\Rapid\Codes\POS\POS.Service\bin\Debug\net7.0\POS.Service.dll
 E:\Rapid\Codes\POS\POS.Service\bin\Debug\net7.0\POS.Service.pdb
+E:\Rapid\Codes\POS\POS.Service\bin\Debug\net7.0\POS.Repository.dll
+E:\Rapid\Codes\POS\POS.Service\bin\Debug\net7.0\POS.Repository.pdb
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.csproj.AssemblyReference.cache
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.GeneratedMSBuildEditorConfig.editorconfig
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.AssemblyInfoInputs.cache
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.AssemblyInfo.cs
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.csproj.CoreCompileInputs.cache
+E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.csproj.CopyComplete
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.dll
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\refint\POS.Service.dll
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.pdb
+E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\POS.Service.genruntimeconfig.cache
 E:\Rapid\Codes\POS\POS.Service\obj\Debug\net7.0\ref\POS.Service.dll

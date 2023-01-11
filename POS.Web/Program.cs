@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("SQLServerConnection");
-builder.Services.AddDbContext<POS.Repository.AppContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<POS.Repository.AplikasiContext>(options => options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

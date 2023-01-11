@@ -430,11 +430,20 @@
         }
       },
       "POS.Repository/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12"
+        },
         "runtime": {
           "POS.Repository.dll": {}
         }
       },
       "POS.Service/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
+          "POS.Repository": "1.0.0"
+        },
         "runtime": {
           "POS.Service.dll": {}
         }

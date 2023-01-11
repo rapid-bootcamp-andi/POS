@@ -786,6 +786,10 @@
       "POS.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12"
+        },
         "compile": {
           "bin/placeholder/POS.Repository.dll": {}
         },
@@ -796,6 +800,11 @@
       "POS.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
+          "POS.Repository": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/POS.Service.dll": {}
         },
@@ -2026,8 +2035,8 @@
     },
     "POS.Repository/1.0.0": {
       "type": "project",
-      "path": "../POS.Repositoryy/POS.Repository.csproj",
-      "msbuildProject": "../POS.Repositoryy/POS.Repository.csproj"
+      "path": "../POS.Repository/POS.Repository.csproj",
+      "msbuildProject": "../POS.Repository/POS.Repository.csproj"
     },
     "POS.Service/1.0.0": {
       "type": "project",
@@ -2071,8 +2080,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\POS.Repository.csproj": {
-              "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repositoryy\\POS.Repository.csproj"
+            "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj": {
+              "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj"
             },
             "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj": {
               "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj"
