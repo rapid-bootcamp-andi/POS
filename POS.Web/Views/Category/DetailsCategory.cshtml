@@ -1,0 +1,43 @@
+﻿@model POS.Repository.Category
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h1></h1>
+</div><!-- End Breadcrumbs -->
+
+<section id="contact" class="contact section-bg">
+    <div class="container" data-aos="fade-up">
+        &nbsp;
+        <div class="section-header">
+            <h2>Details Category</h2>
+        </div>
+        <div class="container section-bg" style="overflow: auto;">
+            <p></p>
+            <table class="table table-bordered" style="width:322px">
+                <tr>
+                    <th>Id</th>
+                    <td>@Model.Id</td>
+                </tr>
+                <tr>
+                    <th>Nama Kategori</th>
+                    <td>@Model.CategoryName</td>
+                </tr>
+                <tr>
+                    <th>Deskripsi</th>
+                    <td>@Model.Description</td>
+                </tr>
+                <tr>
+                    <th>Nama Gambar</th>
+                    <td>@Model.Picture</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--End Contact Form -->
+
+    </div>
+</section>

@@ -67,3 +67,9 @@ E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\POS.Service.dll
 E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\POS.Repository.pdb
 E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\POS.Service.pdb
 E:\Rapid\Codes\POS\POS.Web\obj\Debug\net7.0\POS.Web.csproj.CopyComplete
+E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\Rapid\Codes\POS\POS.Web\obj\Debug\net7.0\POS.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\POS.ViewModel.dll
+E:\Rapid\Codes\POS\POS.Web\bin\Debug\net7.0\POS.ViewModel.pdb
