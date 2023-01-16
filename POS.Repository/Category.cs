@@ -12,8 +12,8 @@ namespace POS.Repository
     public class Category
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
+        [Column("category_id")]
+        public int CategoryId { get; set; }
 
         [Required]
         [Column("category_name")]
@@ -27,7 +27,7 @@ namespace POS.Repository
         [Column("picture")]
         public String Picture { get; set; }
 
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product> Product { get; set; }
 
         public Category(POS.ViewModel.CategoryModel model)
         {

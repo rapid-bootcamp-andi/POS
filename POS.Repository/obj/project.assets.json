@@ -2034,11 +2034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj",
+      "projectUniqueName": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj",
       "projectName": "POS.Repository",
-      "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj",
+      "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj",
       "packagesPath": "C:\\Users\\SyrMtng\\.nuget\\packages\\",
-      "outputPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\obj\\",
+      "outputPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SyrMtng\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2055,8 +2055,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj": {
-              "projectPath": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj"
+            "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj": {
+              "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj"
             }
           }
         }

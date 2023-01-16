@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YeUML5d/eyYSiku3h4UcXFBeeW1/SNEOHor6/bUxgbrnPuJnXvt1dvJNKK6xP1EqRRnozkZgoNL4FoJAACpT3Q==",
+  "dgSpecHash": "1iTBRoSGCG1VXcXf0O+GvrbpOdJZ4rwd/j9FHn4YaJUHQcGatAItdx5WcujTtzNS+9VX9nO/vuDPtuR//9jlGw==",
   "success": true,
-  "projectFilePath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj",
+  "projectFilePath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SyrMtng\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SyrMtng\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

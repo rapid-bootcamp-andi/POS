@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rapid\\Codes\\POS\\POS.Web\\POS.Web.csproj": {}
+    "E:\\Rapid\\Codes\\POS - Copy\\POS.Web\\POS.Web.csproj": {}
   },
   "projects": {
-    "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj": {
+    "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj",
+        "projectUniqueName": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj",
         "projectName": "POS.Repository",
-        "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj",
+        "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj",
         "packagesPath": "C:\\Users\\SyrMtng\\.nuget\\packages\\",
-        "outputPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\obj\\",
+        "outputPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SyrMtng\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj": {
-                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj"
+              "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj": {
+                "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj": {
+    "E:\\Rapid\\Codes\\POS - Copy\\POS.Service\\POS.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj",
+        "projectUniqueName": "E:\\Rapid\\Codes\\POS - Copy\\POS.Service\\POS.Service.csproj",
         "projectName": "POS.Service",
-        "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj",
+        "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Service\\POS.Service.csproj",
         "packagesPath": "C:\\Users\\SyrMtng\\.nuget\\packages\\",
-        "outputPath": "E:\\Rapid\\Codes\\POS\\POS.Service\\obj\\",
+        "outputPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SyrMtng\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj": {
-                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj"
+              "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj": {
+                "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj"
               }
             }
           }
@@ -158,14 +158,14 @@
         }
       }
     },
-    "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj": {
+    "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj",
+        "projectUniqueName": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj",
         "projectName": "POS.ViewModel",
-        "projectPath": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj",
+        "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj",
         "packagesPath": "C:\\Users\\SyrMtng\\.nuget\\packages\\",
-        "outputPath": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\obj\\",
+        "outputPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SyrMtng\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,14 +213,14 @@
         }
       }
     },
-    "E:\\Rapid\\Codes\\POS\\POS.Web\\POS.Web.csproj": {
+    "E:\\Rapid\\Codes\\POS - Copy\\POS.Web\\POS.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.Web\\POS.Web.csproj",
+        "projectUniqueName": "E:\\Rapid\\Codes\\POS - Copy\\POS.Web\\POS.Web.csproj",
         "projectName": "POS.Web",
-        "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Web\\POS.Web.csproj",
+        "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Web\\POS.Web.csproj",
         "packagesPath": "C:\\Users\\SyrMtng\\.nuget\\packages\\",
-        "outputPath": "E:\\Rapid\\Codes\\POS\\POS.Web\\obj\\",
+        "outputPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SyrMtng\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,14 +237,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj": {
-                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Repository\\POS.Repository.csproj"
+              "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj": {
+                "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Repository\\POS.Repository.csproj"
               },
-              "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj": {
-                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj"
+              "E:\\Rapid\\Codes\\POS - Copy\\POS.Service\\POS.Service.csproj": {
+                "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Service\\POS.Service.csproj"
               },
-              "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj": {
-                "projectPath": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj"
+              "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj": {
+                "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj"
               }
             }
           }

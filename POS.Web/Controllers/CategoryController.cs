@@ -30,6 +30,11 @@ namespace POS.Web.Controllers
             return View();
         }
 
+        public IActionResult AddModal()
+        {
+            return PartialView("_AddCategory");
+        }
+
         public IActionResult SaveCategory([Bind("CategoryName, Description, Picture")] CategoryModel request)
         {
             if(ModelState.IsValid)
@@ -46,7 +51,7 @@ namespace POS.Web.Controllers
             return View(entity);
         }
 
-        public IActionResult UpdateCategory([Bind("Id, CategoryName, Description, Picture")] CategoryModel request)
+        public IActionResult UpdateCategory([Bind("CategoryId, CategoryName, Description, Picture")] CategoryModel request)
         {
             if (ModelState.IsValid)
             {

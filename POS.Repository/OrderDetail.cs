@@ -12,8 +12,8 @@ namespace POS.Repository
     public class OrderDetail
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
+        [Column("order_detail_id")]
+        public int OrderDetailId { get; set; }
 
         [Column("order_id")]
         public int OrderId { get; set; }

@@ -15,3 +15,20 @@ E:\Rapid\Codes\POS\POS.Repository\obj\Debug\net7.0\ref\POS.Repository.dll
 E:\Rapid\Codes\POS\POS.Repository\bin\Debug\net7.0\POS.ViewModel.dll
 E:\Rapid\Codes\POS\POS.Repository\bin\Debug\net7.0\POS.ViewModel.pdb
 E:\Rapid\Codes\POS\POS.Repository\obj\Debug\net7.0\POS.Repository.csproj.CopyComplete
+E:\Rapid\Codes\POS - Copy\POS.Repository\bin\Debug\net7.0\POS.Repository.deps.json
+E:\Rapid\Codes\POS - Copy\POS.Repository\bin\Debug\net7.0\POS.Repository.runtimeconfig.json
+E:\Rapid\Codes\POS - Copy\POS.Repository\bin\Debug\net7.0\POS.Repository.dll
+E:\Rapid\Codes\POS - Copy\POS.Repository\bin\Debug\net7.0\POS.Repository.pdb
+E:\Rapid\Codes\POS - Copy\POS.Repository\bin\Debug\net7.0\POS.ViewModel.dll
+E:\Rapid\Codes\POS - Copy\POS.Repository\bin\Debug\net7.0\POS.ViewModel.pdb
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.csproj.AssemblyReference.cache
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.AssemblyInfoInputs.cache
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.AssemblyInfo.cs
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.csproj.CoreCompileInputs.cache
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.csproj.CopyComplete
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.dll
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\refint\POS.Repository.dll
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.pdb
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\POS.Repository.genruntimeconfig.cache
+E:\Rapid\Codes\POS - Copy\POS.Repository\obj\Debug\net7.0\ref\POS.Repository.dll

@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace POS.Repository
 {
-    [Table("tbl_suplier")]
+    [Table("tbl_supplier")]
     public class Supplier
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
+        [Column("supplier_id")]
+        public int SupplierId { get; set; }
 
         [Required]
         [Column("company_name")]
@@ -55,7 +55,7 @@ namespace POS.Repository
         [Column("homepage")]
         public String Homepage { get; set; }
 
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product> Product { get; set; }
 
         public Supplier(POS.ViewModel.SupplierModel model)
         {

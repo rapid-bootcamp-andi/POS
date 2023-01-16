@@ -13,7 +13,7 @@ namespace POS.Service
         private CategoryModel EntityToModel(Category entity)
         {
             CategoryModel result = new CategoryModel();
-            result.Id = entity.Id;
+            result.CategoryId = entity.CategoryId;
             result.CategoryName = entity.CategoryName;
             result.Description = entity.Description;
             result.Picture = entity.Picture;
@@ -27,6 +27,7 @@ namespace POS.Service
             entity.Description = model.Description;
             entity.Picture = model.Picture;
         }
+
         public CategoryService(AplikasiContext context)
         {
             _context = context;
@@ -53,11 +54,10 @@ namespace POS.Service
 
         public void UpdateCategory(CategoryModel category)
         {
-            var entity = _context.CategoryEntities.Find(category.Id);
+            var entity = _context.CategoryEntities.Find(category.CategoryId);
             ModelToEntity(category, entity);
             _context.CategoryEntities.Update(entity);
             _context.SaveChanges();
-
         }
 
         public List<Category> DeleteById(int? id)

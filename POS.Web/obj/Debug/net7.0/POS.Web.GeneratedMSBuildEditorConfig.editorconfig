@@ -9,69 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = POS.Web
 build_property.RootNamespace = POS.Web
-build_property.ProjectDir = E:\Rapid\Codes\POS\POS.Web\
+build_property.ProjectDir = E:\Rapid\Codes\POS - Copy\POS.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Rapid\Codes\POS\POS.Web
+build_property.MSBuildProjectDirectory = E:\Rapid\Codes\POS - Copy\POS.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Category/AddCategory.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Category/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Category/DetailsCategory.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Category/DetailsCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlsc0NhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Category/EditCategory.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Category/EditCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Category/GetAllCategory.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Category/GetAllCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Home/Index.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Category/_AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX0FkZENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Home/Privacy.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Shared/Error.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Product/DetailsProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Product/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Product/GetAllProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Product/_AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Supplier/AddSupplier.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Supplier/AddSupplier.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQWRkU3VwcGxpZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Supplier/DetailsSupplier.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Supplier/DetailsSupplier.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRGV0YWlsc1N1cHBsaWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Supplier/EditSupplier.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Supplier/EditSupplier.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRWRpdFN1cHBsaWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Supplier/GetAllSupplier.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Supplier/GetAllSupplier.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcR2V0QWxsU3VwcGxpZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/_ViewImports.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Supplier/_AddSupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcX0FkZFN1cHBsaWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/_ViewStart.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/Shared/_Layout.cshtml]
+[E:/Rapid/Codes/POS - Copy/POS.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3uy6bn8efq

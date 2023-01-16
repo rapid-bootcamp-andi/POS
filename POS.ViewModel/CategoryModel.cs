@@ -4,7 +4,7 @@ namespace POS.ViewModel
 {
     public class CategoryModel
     {
-        public int Id { get; set; }
+        public int CategoryId { get; set; }
 
         [Required]
         public string CategoryName { get; set; }

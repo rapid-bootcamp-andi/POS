@@ -30,6 +30,11 @@ namespace POS.Web.Controllers
             return View();
         }
 
+        public IActionResult _AddSupplier()
+        {
+            return PartialView("_AddSupplier");
+        }
+
         public IActionResult SaveSupplier([Bind("CompanyName, ContactName, ContactTitle, City, Region, PostalCode, Country, Phone, Fax, Homepage")] SupplierModel request)
         {
             if (ModelState.IsValid)
@@ -46,16 +51,14 @@ namespace POS.Web.Controllers
             return View(entity);
         }
 
-        public IActionResult UpdateSupplier([Bind("Id, CompanyName, ContactName, ContactTitle, City, Region, PostalCode, Country, Phone, Fax, Homepage")] SupplierModel request)
+        public IActionResult UpdateSupplier([Bind("SupplierId, CompanyName, ContactName, ContactTitle, City, Region, PostalCode, Country, Phone, Fax, Homepage")] SupplierModel request)
         {
             if (ModelState.IsValid)
             {
-                Supplier supplierEntity = new Supplier(request);
-                supplierEntity.Id = request.Id;
-                _service.UpdateSupplier(supplierEntity);
+                _service.UpdateSupplier(request);
                 return Redirect("GetAllSupplier");
             }
-            return Redirect("AddSupplier");
+            return View("EditSupplier", request);
         }
 
         public IActionResult DeleteSupplier(int? id)

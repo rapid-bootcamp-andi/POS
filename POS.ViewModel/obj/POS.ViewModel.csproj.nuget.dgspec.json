@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj": {}
+    "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj": {}
   },
   "projects": {
-    "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj": {
+    "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj",
+        "projectUniqueName": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj",
         "projectName": "POS.ViewModel",
-        "projectPath": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\POS.ViewModel.csproj",
+        "projectPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\POS.ViewModel.csproj",
         "packagesPath": "C:\\Users\\SyrMtng\\.nuget\\packages\\",
-        "outputPath": "E:\\Rapid\\Codes\\POS\\POS.ViewModel\\obj\\",
+        "outputPath": "E:\\Rapid\\Codes\\POS - Copy\\POS.ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SyrMtng\\AppData\\Roaming\\NuGet\\NuGet.Config",

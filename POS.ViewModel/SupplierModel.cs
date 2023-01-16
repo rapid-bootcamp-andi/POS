@@ -10,7 +10,7 @@ namespace POS.ViewModel
 {
     public class SupplierModel
     {
-        public int Id { get; set; }
+        public int SupplierId { get; set; }
 
         [Required]
         public String CompanyName { get; set; }

@@ -12,8 +12,8 @@ namespace POS.Repository
     public class Employee
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
+        [Column("employee_id")]
+        public int EmployeeId { get; set; }
 
         [Column("last_name")]
         public String LastName { get; set; }

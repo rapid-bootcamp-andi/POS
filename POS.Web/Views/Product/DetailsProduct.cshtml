@@ -1,0 +1,67 @@
+﻿@model POS.ViewModel.ProductModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h1></h1>
+</div><!-- End Breadcrumbs -->
+
+<section id="contact" class="contact section-bg">
+    <div class="container" data-aos="fade-up">
+        &nbsp;
+        <div class="section-header">
+            <h2>Details Suplier</h2>
+        </div>
+        <div class="container section-bg" style="overflow: auto;">
+            <p></p>
+            <table class="table table-bordered" style="width:322px">
+                <tr>
+                    <th>Id</th>
+                    <td>@Model.ProductId</td>
+                </tr>
+                <tr>
+                    <th>Product Name</th>
+                    <td>@Model.ProductName</td>
+                </tr>
+                <tr>
+                    <th>Suplier Id</th>
+                    <td>@Model.SupplierId</td>
+                </tr>
+                <tr>
+                    <th>Category Id</th>
+                    <td>@Model.CategoryId</td>
+                </tr>
+                <tr>
+                    <th>Quantity Per Unit</th>
+                    <td>@Model.QuantityPerUnit</td>
+                </tr>
+                <tr>
+                    <th>Unit Price</th>
+                    <td>@Model.UnitPrice</td>
+                </tr>
+                <tr>
+                    <th>Unit In Stock</th>
+                    <td>@Model.UnitInStock</td>
+                </tr>
+                <tr>
+                    <th>Unit On Order</th>
+                    <td>@Model.UnitOnOrder</td>
+                </tr>
+                <tr>
+                    <th>Recorder Level</th>
+                    <td>@Model.RecorderLevel</td>
+                </tr>
+                <tr>
+                    <th>Discontinued</th>
+                    <td>@Model.Discontinued</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--End Contact Form -->
+
+    </div>
+</section>
