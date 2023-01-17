@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rJMGQZNBt5QUvojxdNKxIauEd8OYV0975beKXJ5wB5iEkrRMoyWzrF58mVpxsGV0uTMkMMCHz49YLA/N/FmCCg==",
+  "dgSpecHash": "SgK85OSn84VI0wgOG+De9quMZ7DCWCbf4o85lpwU0P9rNaRgKeJHXZAx2JrgpTLV8sACCQrI4U9P25Up8kB+Mg==",
   "success": true,
-  "projectFilePath": "E:\\Rapid\\Codes\\POS - Copy\\POS.Service\\POS.Service.csproj",
+  "projectFilePath": "E:\\Rapid\\Codes\\POS\\POS.Service\\POS.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SyrMtng\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SyrMtng\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

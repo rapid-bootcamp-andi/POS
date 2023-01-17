@@ -66,6 +66,9 @@ namespace POS.Repository
             City = model.City;
             Region = model.Region;
             PostalCode = model.PostalCode;
+            Country = model.Country;
+            Phone = model.Phone;
+            Fax = model.Fax;
         }
 
         public Customer()

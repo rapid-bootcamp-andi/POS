@@ -1,0 +1,51 @@
+﻿@model POS.ViewModel.OrderDetailModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h1></h1>
+</div><!-- End Breadcrumbs -->
+
+<section id="contact" class="contact section-bg">
+    <div class="container" data-aos="fade-up">
+        &nbsp;
+        <div class="section-header">
+            <h2>Details Suplier</h2>
+        </div>
+        <div class="container section-bg" style="overflow: auto;">
+            <p></p>
+            <table class="table table-bordered" style="width:322px">
+                <tr>
+                    <th>Id</th>
+                    <td>@Model.OrderDetailId</td>
+                </tr>
+                <tr>
+                    <th>Order Id</th>
+                    <td>@Model.OrderId</td>
+                </tr>
+                <tr>
+                    <th>Product Id</th>
+                    <td>@Model.ProductId</td>
+                </tr>
+                <tr>
+                    <th>Unit Price</th>
+                    <td>@Model.UnitPrice</td>
+                </tr>
+                <tr>
+                    <th>Quantityt</th>
+                    <td>@Model.Quantity</td>
+                </tr>
+                <tr>
+                    <th>Discount</th>
+                    <td>@Model.Discount</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--End Contact Form -->
+
+    </div>
+</section>

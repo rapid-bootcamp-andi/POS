@@ -182,11 +182,6 @@ namespace POS.Repository.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("photo_path");
 
-                    b.Property<string>("PkrPri")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("title_of_courtesy");
-
                     b.Property<string>("PostalCode")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
@@ -205,6 +200,11 @@ namespace POS.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("title");
+
+                    b.Property<string>("TitleOfCourtesy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("title_of_courtesy");
 
                     b.HasKey("EmployeeId");
 
@@ -448,7 +448,7 @@ namespace POS.Repository.Migrations
             modelBuilder.Entity("POS.Repository.Order", b =>
                 {
                     b.HasOne("POS.Repository.Customer", "Customer")
-                        .WithMany("Orders")
+                        .WithMany("Order")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -509,7 +509,7 @@ namespace POS.Repository.Migrations
 
             modelBuilder.Entity("POS.Repository.Customer", b =>
                 {
-                    b.Navigation("Orders");
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("POS.Repository.Employee", b =>

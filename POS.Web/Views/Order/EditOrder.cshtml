@@ -1,0 +1,108 @@
+﻿@model POS.ViewModel.OrderModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h1></h1>
+</div><!-- End Breadcrumbs -->
+
+<section id="contact" class="contact section-bg">
+    <div class="container" data-aos="fade-up">
+        &nbsp;
+        <div class="section-header">
+            <h2>Update Order</h2>
+        </div>
+        <div class="container section-bg" style="overflow: auto;">
+            <p></p>
+            <form asp-action="UpdateOrrder" method="post">
+                <div class="row mb-3">
+                    <input type="hidden" asp-for="OrderId" />
+                    <div class="row mb-3">
+                        <div class="col form-floating">
+                            <input asp-for="CustomerId" class="form-control" placeholder="name@example.com">
+                            <label asp-for="CustomerId">&nbsp;Customer Id</label>
+                            <span asp-validation-for="CustomerId" class="text-danger"></span>
+                        </div>
+                        <div class="col form-floating">
+                            <input asp-for="EmployeeId" class="form-control" placeholder="name@example.com">
+                            <label asp-for="EmployeeId">&nbsp;Employee Id</label>
+                            <span asp-validation-for="EmployeeId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col form-floating">
+                            <input asp-for="OrderDate" class="form-control" placeholder="name@example.com">
+                            <label asp-for="OrderDate">&nbsp;Order Date</label>
+                            <span asp-validation-for="OrderDate" class="text-danger"></span>
+                        </div>
+                        <div class="col form-floating">
+                            <input asp-for="RequiredDate" class="form-control" placeholder="name@example.com">
+                            <label asp-for="RequiredDate">&nbsp;Required Date</label>
+                            <span asp-validation-for="RequiredDate" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col form-floating">
+                            <input asp-for="ShipVia" class="form-control" placeholder="name@example.com">
+                            <label asp-for="ShipVia">&nbsp;Ship Via</label>
+                            <span asp-validation-for="ShipVia" class="text-danger"></span>
+                        </div>
+                        <div class="col form-floating">
+                            <input asp-for="Freight" class="form-control" placeholder="name@example.com">
+                            <label asp-for="Freight">&nbsp;Freight</label>
+                            <span asp-validation-for="Freight" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col form-floating">
+                            <input asp-for="ShipName" class="form-control" placeholder="name@example.com">
+                            <label asp-for="ShipName">&nbsp;Ship Name</label>
+                            <span asp-validation-for="ShipName" class="text-danger"></span>
+                        </div>
+                        <div class="col form-floating">
+                            <input asp-for="ShipAddress" class="form-control" placeholder="name@example.com">
+                            <label asp-for="ShipAddress">&nbsp;Ship Address</label>
+                            <span asp-validation-for="ShipAddress" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col form-floating">
+                            <input asp-for="ShipCity" class="form-control" placeholder="name@example.com">
+                            <label asp-for="ShipCity">&nbsp;Ship City</label>
+                            <span asp-validation-for="ShipCity" class="text-danger"></span>
+                        </div>
+                        <div class="col form-floating">
+                            <input asp-for="ShipRegion" class="form-control" placeholder="name@example.com">
+                            <label asp-for="ShipRegion">&nbsp;Ship Region</label>
+                            <span asp-validation-for="ShipRegion" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col form-floating">
+                            <input asp-for="ShipPostalCode" class="form-control" placeholder="name@example.com">
+                            <label asp-for="ShipPostalCode">&nbsp;Ship Postal Code</label>
+                            <span asp-validation-for="ShipPostalCode" class="text-danger"></span>
+                        </div>
+                        <div class="col form-floating">
+                            <input asp-for="ShipCountry" class="form-control" placeholder="name@example.com">
+                            <label asp-for="ShipCountry">&nbsp;Ship Country</label>
+                            <span asp-validation-for="ShipCountry" class="text-danger"></span>
+                        </div>
+                    </div>
+                <button type="submit" class="btn btn-outline-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-check-fill" viewBox="0 0 16 16">
+                        <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47L15.964.686Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
+                        <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
+                    </svg>
+                    Submit
+                </button>
+            </form>
+        </div>
+        
+        <!--End Contact Form -->
+
+    </div>
+</section>
