@@ -20,6 +20,10 @@ namespace POS.Repository
         [Required]
         public Customer Customer { get; set; }
 
+        [Column("shipper_id")]
+        public int ShipperId { get; set; }
+        public Shipper Shipper { get; set; }
+
         [Column("employee_id")]
         public int EmployeeId { get; set; }
         [Required]
@@ -69,7 +73,7 @@ namespace POS.Repository
         [Column("ship_country")]
         public String ShipCountry { get; set; }
 
-        public ICollection<OrderDetail> OrderDetail { get; set; }
+        public List<OrderDetail> OrderDetail { get; set; }
 
         public Order(POS.ViewModel.OrderModel model)
         {
@@ -77,6 +81,7 @@ namespace POS.Repository
             EmployeeId = model.EmployeeId;
             OrderDate = model.OrderDate;
             RequiredDate = model.RequiredDate;
+            ShippedDate = model.ShippedDate;
             ShipVia = model.ShipVia;
             Freight = model.Freight;
             ShipName = model.ShipName;

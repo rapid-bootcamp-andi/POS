@@ -16,6 +16,9 @@ namespace POS.ViewModel
         public int CustomerId { get; set; }
 
         [Required]
+        public int ShipperId { get; set; }
+
+        [Required]
         public int EmployeeId { get; set; }
 
         [Required]
@@ -23,6 +26,9 @@ namespace POS.ViewModel
 
         [Required]
         public DateTime RequiredDate { get; set; }
+
+        [Required]
+        public DateTime ShippedDate { get; set; }
 
         [Required]
         public int ShipVia { get; set; }
@@ -47,5 +53,7 @@ namespace POS.ViewModel
 
         [Required]
         public String ShipCountry { get; set; }
+
+        public List<OrderDetailModel> OrderDetail { get; set; }
     }
 }

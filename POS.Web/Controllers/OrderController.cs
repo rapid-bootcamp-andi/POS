@@ -1,71 +1,104 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using POS.Repository;
 using POS.Service;
 using POS.ViewModel;
 
-namespace POS.Web.Controllers
+namespace POS.web.Controllers
 {
     public class OrderController : Controller
     {
         private readonly OrderService _service;
+        private readonly CustomerService _customerService;
+        private readonly EmployeeService _employeeService;
+        private readonly ProductService _productService;
+        private readonly ShipperService _shipperService;
+
         public OrderController(AplikasiContext context)
         {
             _service = new OrderService(context);
+            _customerService = new CustomerService(context);
+            _employeeService = new EmployeeService(context);
+            _productService = new ProductService(context);
+            _shipperService = new ShipperService(context);
+
         }
 
-        public IActionResult GetAllOrder()
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            var Data = _service.GetOrder();
-            return View(Data);
+            var data = _service.GetOrders();
+            return View(data);
         }
 
-        public IActionResult DetailsOrder(int? id)
+        [HttpGet]
+        public IActionResult Detail(int? id)
         {
-            var DataDetail = _service.GetOrderById(id);
-            return View(DataDetail);
+            var dataDetail = _service.GetOrderInvoice(id);
+            return View(dataDetail);
         }
 
-        public IActionResult AddOrder()
+        [HttpGet]
+        public IActionResult Add()
         {
+            ViewBag.Customer = new SelectList(_customerService.GetCustomer(), "CustomerId", "CompanyName");
+            ViewBag.Employee = new SelectList(_employeeService.GetEmployee(), "EmployeeId", "FirstName");
+            ViewBag.Product = new SelectList(_productService.GetProduct(), "ProductId", "ProductName");
+            ViewBag.Shipper = new SelectList(_shipperService.GetShippers(), "ShipperId", "CompanyName");
             return View();
         }
 
-        public IActionResult _AddOrder()
+        [HttpGet]
+        public IActionResult AddModal()
         {
-            return PartialView("_AddOrder");
+            ViewBag.Customer = new SelectList(_customerService.GetCustomer(), "CustomerId", "CompanyName");
+            ViewBag.Employee = new SelectList(_employeeService.GetEmployee(), "EmployeeId", "FirstName");
+            ViewBag.Product = new SelectList(_productService.GetProduct(), "ProductId", "ProductName");
+            ViewBag.Shipper = new SelectList(_shipperService.GetShippers(), "ShipperId", "CompanyName");
+            return View("_Add");
         }
 
-        public IActionResult SaveOrder([Bind("CustomerId, EmployeeId, OrderDate, RequiredDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry")] OrderModel request)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Save([Bind("CustomerId, EmployeesId, ShipperId, OrderDate, RequiredDate, ShippedDate,  Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry, OrderDetails")] OrderModel request)
         {
             if (ModelState.IsValid)
             {
-                _service.SaveOrder(new Order(request));
-                return Redirect("GetAllOrder");
+                _service.SaveOrder(request);
+                return Redirect("GetAll");
             }
-            return View("AddOrder", request);
+            return View("Add", request);
         }
 
-        public IActionResult EditOrder(int? id)
+        [HttpGet]
+        public IActionResult Edit(int? id)
         {
+            ViewBag.Customer = new SelectList(_customerService.GetCustomer(), "CustomerId", "CompanyName");
+            ViewBag.Employee = new SelectList(_employeeService.GetEmployee(), "EmployeeId", "FirstName");
+            ViewBag.Product = new SelectList(_productService.GetProduct(), "ProductId", "ProductName");
+            ViewBag.Shipper = new SelectList(_shipperService.GetShippers(), "ShipperId", "CompanyName");
             var entity = _service.GetOrderById(id);
             return View(entity);
         }
 
-        public IActionResult UpdateOrder([Bind("OrderId, CustomerId, EmployeeId, OrderDate, RequiredDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry")] OrderModel request)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Update([Bind("OrderId, CustomerId, EmployeesId, ShipperId, OrderDate, RequiredDate, ShippedDate,  Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry, OrderDetails")] OrderModel request)
         {
             if (ModelState.IsValid)
             {
                 _service.UpdateOrder(request);
-                return Redirect("GetAllOrder");
+                return Redirect("GetAll");
             }
-            return View("EditOrder", request);
+            return View("Edit", request);
 
         }
 
-        public IActionResult DeleteOrder(int? id)
+        [HttpGet]
+        public ActionResult Delete(int? id)
         {
-            _service.DeleteById(id);
-            return RedirectToAction("GetAllOrder");
+            _service.DeleteOrder(id);
+            return Redirect("/Order/GetAll");
         }
     }
 }

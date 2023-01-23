@@ -76,26 +76,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0FkZEVtcGxveWVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Rapid/Codes/POS/POS.Web/Views/OrderDetail/AddOrderDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcQWRkT3JkZXJEZXRhaWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Rapid/Codes/POS/POS.Web/Views/OrderDetail/DetailsOrderDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcRGV0YWlsc09yZGVyRGV0YWlsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Rapid/Codes/POS/POS.Web/Views/OrderDetail/EditOrderDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcRWRpdE9yZGVyRGV0YWlsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Rapid/Codes/POS/POS.Web/Views/OrderDetail/GetAllOrderDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcR2V0QWxsT3JkZXJEZXRhaWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Rapid/Codes/POS/POS.Web/Views/OrderDetail/_AddOrderDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcX0FkZE9yZGVyRGV0YWlsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Rapid/Codes/POS/POS.Web/Views/Order/AddOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
